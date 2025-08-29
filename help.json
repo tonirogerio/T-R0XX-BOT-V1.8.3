@@ -1,0 +1,190 @@
+{
+  "pt": {
+    "general": {
+      "title": "Informações Gerais",
+      "topics": [
+        {
+          "title": "O que é o T-R0XX Bot?",
+          "content": "O T-R0XX Bot é um assistente automatizado para Talisman Online, com interface gráfica intuitiva e diversas funcionalidades para otimizar sua experiência de jogo, não funciona em privates ou em versões desatualizadas do jogo."
+        },
+        {
+          "title": "Requisitos do Sistema",
+          "content": "- Windows 10\n- Talisman Online instalado.\n- Resolução suportada (800*600, 1024*768, 1280*720, 1280*800, 1920*1080).\n- Escala do sistema Windows em 100%, alguns computadores tem por padrão 125%, não irá funcionar se não estiver em 100%.\n- Monitores 4k podem apresentar problemas, necessário diminuir resolução.\n- Notebook com telas pequenas terão que usar resolução para mostrar a tela inteira do jogo, não pode ficar uma parte da tela do jogo escondida."
+        }
+      ]
+    },
+    "features": {
+      "title": "Funcionalidades",
+      "topics": [
+        {
+          "title": "Sistema de Classes",
+          "content": "O bot suporta todas as classes do jogo:\n- Assassin\n- Wizzard\n- Monk\n- Tamer\n- Fairy"
+        },
+        {
+          "title": "Sistema de Scripts",
+          "content": "- Stamina, pode ser usado para Assassin ou Monk(Staff), classe Monk que usa Shovel não é recomendado pois usa sistema de pontos nas skills.\n- Mana, pode ser usado para Wizzard e Tamer em grupos ou solo.\n- Sin Lure/AOE, é específico para Assassin quando necessita lurar mobs ao redor e usar a skill de aoe.\n- Fairy Heal, Fairy que somente cura os membros do grupo e a sí mesma, se estiver marcado a opção (Fairy Follow Member) ela seguirá e usará cura no primeiro char do time apenas.\n- Fairy Attack, script de farm para Fairy solo, ataca os mobs e se cura.\n- Fairy ATK/HEAL, Fairy solo ou em grupo, ataca os mobs, se cura e cura os membros do time, importante desativar a opção (Fairy Follow Member)."
+        },
+        {
+          "title": "Gerenciamento de HP/MP",
+          "content": "- Configuração de limites de HP/MP, ajuste de valores para batalha, sistema automático de cura, uso inteligente de poções.\n- Low HP, porcentagem de vida para se curar, usar potion ou somente sentar.\n- Low MP, porcentagem de mana para recuperar, usar potion ou somente sentar.\n- Battle Low HP, porcentagem para se curar em batalha, usar potion.\n- Battle Low MP, porcentagem para recuperar mana em batalha, usar potion."
+        },
+        {
+          "title": "Sistema de Buffs",
+          "content": "- Gerenciamento automático de buffs.\n- Configuração de delay entre buffs.\n- Suporte para múltiplas habilidades."
+        },
+        {
+          "title": "Pet System",
+          "content": "- Alimentação automática de pets.\n- Configuração do intervalo de alimentação.\n- Gerenciamento inteligente de comida."
+        },
+        {
+          "title": "Sistema Deleter",
+          "content": "- Limpeza automática de itens.\n- Configuração de delay.\n- Pasta dedicada para imagens que serão excluidas se auto sell estiver desligado (Images/DELETE).\n- Pasta dedicada para imagens que serão excluidas se auto sell estiver ligado (Images/SELL). \n- Botão para gerar novas imagens a serem excluidas."
+        },
+        {
+          "title": "Farming",
+          "content": "- Configuração de spot de farm.\n- Sistema de retorno automático usando a coordenada capturada no Spot Farm.\n- Botão Get Coords para obter a coordenada onde o char irá voltar após morrer.\n- Sistema inteligente de ataque ininterrupto, ideal para ganhar XP, drops e golds."
+        },
+        {
+          "title": "Sistema de Venda (Sell)",
+          "content": "- Configuração automática de venda de itens.\n- Definição de coordenadas.\n- Ideal para fazer gold extra."
+        }
+      ]
+    },
+    "settings": {
+      "title": "Configurações",
+      "topics": [
+        {
+          "title": "Configurações de Teclas",
+          "content": "A página Keys permite configurar todas as teclas usadas pelo bot:\n\nHabilidades de Combate:\n- Skill 1-3: Teclas para habilidades de ataque (usadas no target acima de 45% HP)\n- Skill 4-6: Teclas para habilidades de ataque (usadas no target abaixo de 45% HP)\n- Healing spell: Tecla dedicada para Fairy Healing Spell Skill\n- Cure spell: Tecla Fairy Cure Spell Skill\n- Sun needle: Tecla para buff de hp da fada\n\nHabilidades de Sin:\n- Sin lure: Tecla para atrair monstros\n- Sin aoe: Tecla para dano em área\n- Sin stun: Tecla para atordoar\n\nTeclas de Interface:\n- Select yourself: F1 para selecionar próprio personagem\n- Inventory: I para abrir inventário\n- Friends: F para lista de amigos\n- Map: M para abrir mapa\n- Follow: P para seguir alvo\n- Mount: Tecla para montar/desmontar\n- Sit: Tecla para sentar\n\nConsumíveis:\n- Pet food: Tecla para alimentar pet\n- Buff 1/2: Teclas para ativar buffs\n- Potion hp/mp: Teclas para poções normais\n- Battle potion hp/mp: Teclas para poções de batalha\n\nOutras Funções:\n- Next target: TAB para próximo alvo\n- Hide players: F12 para esconder outros jogadores"
+        },
+        {
+          "title": "Configurações Básicas",
+          "content": "- Char Script: Selecione o tipo de personagem (Stamina, etc)\n- Graphics: Escolha a resolução do jogo (800x600 ou 1024x768, etc...)\n- Low HP/MP: Configure a porcentagem mínima de HP/MP para uso de poções\n- Battle Low HP/MP: Configure a porcentagem mínima de HP/MP durante batalhas"
+        },
+        {
+          "title": "Configurações de Delay",
+          "content": "- Pet Food Delay: Intervalo em minutos para alimentar o pet\n- Buff Delay: Intervalo em minutos para reativar buffs\n- Deleter Delay: Intervalo em minutos para deletar itens\n- Max Distance: Distância máxima em metros para o sistema de retorno"
+        },
+        {
+          "title": "Configurações de Farm",
+          "content": "- Spot Farm: Coordenadas do local de farm (use Get Cords para capturar)\n- Get Cords: Captura as coordenadas atuais do personagem\n- Get Image: Captura uma imagem da área atual\n- Spot Farm Test: Testa o ponto de farm configurado"
+        },
+        {
+          "title": "Opções de Automação",
+          "content": "- Delete Items: Ativa o sistema de deleção automática de itens\n- Max Distance System: Ativa o sistema de distância máxima\n- Fairy Follow Member: Ativa o modo de seguir para fadas\n- Revive and Back: Retorna automaticamente ao ponto de farm após morrer\n- Debug Auto Pick: Modo de debug para coleta automática\n- Kill Santa Mushroom: Modo especial para caçar Santa Mushroom\n- Auto Pick: Ativa a coleta automática de itens\n- Sell Items: Ativa o sistema de venda automática"
+        },
+		{
+		  "title": "Configuração de Venda Automática",
+		  "content": "- Get Npc Info, Abra o Surrounds, digite o nome do npc que deseja vender e clique no botão para o boter informações do npc ou digite manualmente.\n- Teleport + Shortcut, teleporta para a cidade se estiver marcado, defina o atalho em (Shortcut).\n- Mount, usa montaria se estiver marcado, tanto para ir e voltar, atalho da montaria fica na página (Keys).\n- Set Bag Max Items, o bot irá vender os itens quando atingir o valor configurado, cada bag cabe 30 itens contando os que já existem como assistentes, armas, pet, etc.\n- Surrounds, coordenada do ícone para abrir o surrounds.\n- Surr Input, coordenada para pesquisar o nome do npc dentro do surrounds.\n- First Link, coordenada do primeiro link do surrounds, o bot irá usar para ir até o npc vender os itens.\n- Surr Close, coordenada para fechar a janela do surrounds, botão X.\n- Npc Talk, coordenada para abrir diálogo com o npc.\n- Sell Item, coordenada para abrir o (Sell Item) do npc.\n- Initial Slot, coordenada do slot inicial na bag para começar a vender os itens.\n- Sell Button, coordenada do botão de (Sell) no npc.\n- Back To City, coordenada do mapa onde o bot irá voltar após vender, abra o mapa, clique em (World Map) e capture a coordenada da cidade onde irá voltar.\n- Get Coords, botão para obter coordenadas, clique no campo desejado e clique no botão, mova o mouse onde deseja capturar, aperte ESC, o bot irá atualizar a coordenada do campo selecionado.\n- Save Settings, salva as configurações de venda automática."
+		},
+		{
+			"title": "BC Farm configurações",
+			"content":"- Home, mude o script em (Char Script) para 'BC FARM' e (Graphics) para '1024x768' para ativar o script de BC, não funcionará em outra resolução, somente em '1024x768'.\n- BC Farm, página de configurações para o script de BC Farm.\n- Settings, aba para configurações.\n- Team, ative o (Reseter) se o personagem for ficar aceitando team para resetar, não precisa ativar mais nada para ele, se o persongem for o farmer siga configurando.\n- General:\n(Return Every) quantas vezes vai fazer BC antes de ir em Stone City vender itens.\n(Buy Stone City Return Cham) se ativado, após a venda de itens irá comprar no npc 1 item 'Stone City Return'.\n(Use Guild Teleport) se ativado, usará o item 'Guild Token' para teleportar como opção 1, se não estiver cooldown zerado, teleporta usando 'Stone City Return'.\n- Route: (Standard Route) rota padrão, vai direto ao boss sem descanso e sem matar os mobs 'Gun Witch'.\n(Safe Route) rota segura, mata os mobs 'Gun Witch' e se cura antes de ir ao boss.\n(Pick up Treasure Box) se ativado, irá pegar o treasure box que fica atrás do boss, tambem ativará o deleter de itens como bag level 4, nimbuz, green id.\n- Scripts:\n(Stamina, Mana ou Fairy) stamina serve para assassin e monk, mana serve para wizzard e tamer, fairy é específico para fairy.\n(Use Aoe Until Mana is) se o script for mana, você pode colocar pra usar aoe do wizzard sword ou tamer bow, defina até quantos % de mana você quer usar o aoe, defina a skill em Shortcuts/Mana Aoe.\n(Shovel Combo) se o personagem for monk e usar shovel, defina o sistema de pontos, quantos pontos juntar para usar a skill mais forte, defina a skill em Shortcuts/Shovel Combo.\n- Shortcuts, página de atalhos dedicados ao script BC, se não for usar algum atalho, defina como null para não ser usado pelo bot.\n- Stats, defina % de cura para HP, MP, HP em batalha e MP em batalha."
+		},
+        {
+		  "title": "Doações e Segurança",
+		  "content": "- Doações, escolha de cada um doar ou não, não terá privilégios se fizer uma doação, mas se gostou do projeto e quer ajudar no desenvolvimento, clique no botão (Donate) e faça uma doação.\n- Segurança, o bot usa diversas bibliotecas para funcionar, como leitura de memória, envio de teclas, envio de cliques do mouse, tudo isso poderá ser reconhecido como vírus no sistema.\n- Downloads, todos os links de download ficam na descrição de cada vídeo e também no site, nunca aceite qualquer link enviado por outra pessoa que não seja do projeto ou você poderá ser vítima de um golpe."
+        },
+		{
+		  "title":"Agradecimentos",
+		  "content":"Quero agradecer a todos que sempre apoiaram o projeto, seja com palavras de incentivo, sugestões ou doações. Esse apoio faz toda a diferença. Muito obrigado por acreditarem no projeto!\nTony Rogério"
+		}
+      ]
+    }
+  },
+  "en": {
+    "general": {
+      "title": "General Information",
+      "topics": [
+        {
+          "title": "What is the T-R0XX Bot?",
+          "content": "The T-R0XX Bot is an automated assistant for Talisman Online, with an intuitive graphical interface and various features to optimize your gaming experience. It does not work on private servers or outdated versions of the game."
+        },
+        {
+          "title": "System Requirements",
+          "content": "- Windows 10\n- Talisman Online installed.\n- Supported resolutions (800x600, 1024x768, 1280x720, 1280x800, 1920x1080).\n- Windows system scaling set to 100%, some computers default to 125%, it will not work if it is not set to 100%.\n- 4k monitors may experience issues, resolution needs to be lowered.\n- Laptops with small screens must use a resolution that displays the full game screen, no part of the game screen should be hidden."
+        }
+      ]
+    },
+    "features": {
+      "title": "Features",
+      "topics": [
+        {
+          "title": "Class System",
+          "content": "The bot supports all game classes:\n- Assassin\n- Wizard\n- Monk\n- Tamer\n- Fairy"
+        },
+        {
+          "title": "Script System",
+          "content": "- Stamina: Can be used for Assassin or Monk (Staff). Monk class using Shovel is not recommended due to the skill points system.\n- Mana: Can be used for Wizard and Tamer, both in groups or solo.\n- Sin Lure/AOE: Specific for Assassin when needing to lure mobs around and use the AOE skill.\n- Fairy Heal: Fairy that only heals group members and itself. If the (Fairy Follow Member) option is checked, it will follow and heal only the first character in the team.\n- Fairy Attack: Farming script for Fairy solo, attacks mobs and heals itself.\n- Fairy ATK/HEAL: Fairy solo or in group, attacks mobs, heals itself, and heals team members. Important to disable the (Fairy Follow Member) option."
+        },
+        {
+          "title": "HP/MP Management",
+          "content": "- HP/MP limits configuration, battle value adjustment, automatic healing system, and intelligent potion usage.\n- Low HP: Set the percentage of HP to heal, use a potion, or just sit.\n- Low MP: Set the percentage of MP to recover, use a potion, or just sit.\n- Battle Low HP: Set the percentage to heal during battle, use a potion.\n- Battle Low MP: Set the percentage to recover MP during battle, use a potion."
+        },
+        {
+          "title": "Buff System",
+          "content": "- Automatic buff management.\n- Configuration of delay between buffs.\n- Support for multiple skills."
+        },
+        {
+          "title": "Pet System",
+          "content": "- Automatic pet feeding.\n- Set the feeding interval.\n- Intelligent food management."
+        },
+        {
+		  "title": "Deleter System",
+		  "content": "- Automatic item cleanup.\n- Delay configuration.\n- Dedicated folder for images that will be deleted if auto sell is off (Images/DELETE).\n- Dedicated folder for images that will be deleted if auto sell is on (Images/SELL).\n- Button to generate new images to be deleted."
+		},
+        {
+          "title": "Farming",
+          "content": "- Configure farm spot.\n- Automatic return system using the coordinates captured at the Farm Spot.\n- Get Coords button to capture the coordinates where the character will return after dying.\n- Intelligent uninterrupted attack system, ideal for gaining XP, drops, and gold."
+        },
+        {
+          "title": "Sell System",
+          "content": "- Automatic item selling configuration.\n- Set coordinates.\n- Ideal for making extra gold."
+        }
+      ]
+    },
+    "settings": {
+      "title": "Settings",
+      "topics": [
+        {
+          "title": "Key Settings",
+          "content": "The Keys page allows you to configure all the keys used by the bot:\n\nCombat Skills:\n- Skill 1-3: Keys for attack skills (used when TARGET HP is above 45%)\n- Skill 4-6: Keys for attack skills (used when TARGET HP is bellow 45%)\n- Healing Spell: Dedicated key for Fairy Healing Spell Skill\n- Cure Spell: Fairy Cure Spell Skill key\n- Sun Needle: Key for Fairy HP buff\n\nSin Skills:\n- Sin Lure: Key to lure monsters\n- Sin AOE: Key for area damage\n- Sin Stun: Key to stun\n\nInterface Keys:\n- Select Yourself: F1 to select your character\n- Inventory: I to open inventory\n- Friends: F to open friends list\n- Map: M to open the map\n- Follow: P to follow target\n- Mount: Key to mount/dismount\n- Sit: Key to sit\n\nConsumables:\n- Pet Food: Key to feed pet\n- Buff 1/2: Keys to activate buffs\n- HP/MP Potion: Keys for normal potions\n- Battle HP/MP Potion: Keys for battle potions\n\nOther Functions:\n- Next Target: TAB for the next target\n- Hide Players: F12 to hide other players"
+        },
+        {
+          "title": "Basic Settings",
+          "content": "- Char Script: Select the character type (Stamina, etc.)\n- Graphics: Choose the game resolution (800x600 or 1024x768, etc.)\n- Low HP/MP: Set the minimum HP/MP percentage for potion usage\n- Battle Low HP/MP: Set the minimum HP/MP percentage during battles"
+        },
+        {
+          "title": "Delay Settings",
+          "content": "- Pet Food Delay: Interval in minutes to feed the pet\n- Buff Delay: Interval in minutes to reactivate buffs\n- Deleter Delay: Interval in minutes to delete items\n- Max Distance: Maximum distance in meters for the return system"
+        },
+        {
+          "title": "Farm Settings",
+          "content": "- Spot Farm: Coordinates of the farm location (use Get Cords to capture)\n- Get Cords: Captures the current character's coordinates\n- Get Image: Captures an image of the current area\n- Spot Farm Test: Tests the configured farm spot"
+        },
+        {
+          "title": "Automation Options",
+          "content": "- Delete Items: Activate the automatic item deletion system\n- Max Distance System: Activate the maximum distance system\n- Fairy Follow Member: Activate fairy follow mode\n- Revive and Back: Automatically return to the farm spot after dying\n- Debug Auto Pick: Debug mode for automatic item collection\n- Kill Santa Mushroom: Special mode to hunt Santa Mushrooms\n- Auto Pick: Activate automatic item collection\n- Sell Items: Activate the automatic item selling system"
+        },
+		{
+		  "title": "Automatic Sale Configuration",
+		  "content": "- Get Npc Info, Open Surrounds, type the name of the npc you want to sell to and click the button to get npc information or type manually.\n- Teleport + Shortcut, teleports to the city if checked, set the shortcut in (Shortcut).\n- Mount, uses mount if checked, both for going and coming back, mount shortcut is on the (Keys) page.\n- Set Bag Max Items, the bot will sell items when the configured value is reached, each bag holds 30 items counting those already existing like assistants, weapons, pets, etc.\n- Surrounds, coordinate of the icon to open surrounds.\n- Surr Input, coordinate to search for the npc's name within the surrounds.\n- First Link, coordinate of the first link in the surrounds, the bot will use it to go to the npc to sell items.\n- Surr Close, coordinate to close the surrounds window, X button.\n- Npc Talk, coordinate to open dialogue with the npc.\n- Sell Item, coordinate to open the (Sell Item) of the npc.\n- Initial Slot, coordinate of the initial slot in the bag to start selling items.\n- Sell Button, coordinate of the (Sell) button on the npc.\n- Back To City, coordinate of the map where the bot will return after selling, open the map, click on (World Map) and capture the coordinates of the city to return to.\n- Get Coords, button to get coordinates, click the desired field and click the button, move the mouse to the place where you want to capture, press ESC, the bot will update the coordinate of the selected field.\n- Save Settings, saves the automatic sale settings."
+		},
+		{
+		  "title": "BC Farm Settings",
+		  "content": "- Home, change the script in (Char Script) to 'BC FARM' and (Graphics) to '1024x768' to activate the BC script, it will not work in other resolutions, only in '1024x768'.\n- BC Farm, settings page for the BC Farm script.\n- Settings, tab for configurations.\n- Team, enable (Reseter) if the character will be accepting team to reset, no further configuration is needed for him. If the character is the farmer, continue configuring.\n- General:\n(Return Every) how many times to do BC before going to Stone City to sell items.\n(Buy Stone City Return Cham) if enabled, after selling items it will buy from the NPC 1 item 'Stone City Return'.\n(Use Guild Teleport) if enabled, it will use the 'Guild Token' item to teleport as option 1, if the cooldown is not zero, it will teleport using 'Stone City Return'.\n- Route: (Standard Route) standard route, goes directly to the boss without resting or killing the 'Gun Witch' mobs.\n(Safe Route) safe route, kills the 'Gun Witch' mobs and heals before going to the boss.\n(Pick up Treasure Box) if enabled, it will pick up the treasure box behind the boss, and will also activate the item deleter such as bag level 4, nimbuz, green id.\n- Scripts:\n(Stamina, Mana or Fairy) stamina is for assassin and monk, mana is for wizard and tamer, fairy is specific for fairy.\n(Use Aoe Until Mana is) if the script is mana, you can set it to use aoe from wizard sword or tamer bow, define up to how many % of mana you want to use the aoe, set the skill in Shortcuts/Mana Aoe.\n(Shovel Combo) if the character is a monk and uses shovel, define the point system, how many points to gather before using the strongest skill, set the skill in Shortcuts/Shovel Combo.\n- Shortcuts, shortcuts page dedicated to the BC script, if you don't want to use any shortcut, set it to null so the bot won't use it.\n- Stats, define healing % for HP, MP, HP in battle and MP in battle."
+        },
+		{
+		  "title": "Donations and Security",
+		  "content": "- Donations, it's up to each person to donate or not. There will be no privileges if you make a donation, but if you liked the project and want to support its development, click the (Donate) button and make a donation.\n- Security, the bot uses several libraries to function, such as memory reading, key sending, mouse click sending. All of this may be recognized as a virus by the system.\n- Downloads, all download links are in the description of each video and also on the website. Never accept any link sent by someone outside the project, or you may become a victim of a scam."
+		},
+		{
+		  "title": "Acknowledgements",
+		  "content": "I want to thank everyone who has always supported the project, whether with words of encouragement, suggestions, or donations. This support makes all the difference. Thank you so much for believing in the project!\nTony Rogério"
+		}
+
+
+      ]
+    }
+  }
+}

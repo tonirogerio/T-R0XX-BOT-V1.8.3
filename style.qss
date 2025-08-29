@@ -1,0 +1,68 @@
+/* Estilo geral do fundo */
+QWidget {
+    background-color: #232b30;
+    color: #dbdbdb;
+    font: 'Consolas;
+    font-size: 14px;
+}
+
+/* Caixa de seleção */
+QComboBox {
+    background-color: #2a2a2a;  /* Fundo cinza escuro */
+    border: 1px solid #ffffff;  /* Borda branca */
+    color: #e0e0e0;  /* Texto cinza claro */
+    border-radius: 2px;
+}
+
+QComboBox:focus {
+    border: 2px solid #4d90fe;  /* Borda azul clara ao focar */
+}
+
+/* Caixas de texto */
+QLineEdit, QTextEdit {
+    background-color: #2a2a2a;  /* Fundo cinza escuro */
+    color: #dbdbdb;  /* Texto cinza claro */
+    border: 2px solid #373c3f;  /* Borda */
+    border-radius: 4px;
+    padding: 2px;
+    font-size: 12px;
+}
+
+QLineEdit:focus, QTextEdit:focus {
+    border: 2px solid #34d9c0;  /* Borda azul clara ao focar */
+}
+
+/* Título e texto */
+QLabel {
+    color: #dbdbdb;  /* Texto branco */
+}
+
+
+QListWidget {
+        font-family: Consolas;
+        font-size: 10px;
+        color: #e0e0e0;  /* Texto em cinza claro */
+        background-color: #2a2a2a;  /* Fundo da lista */
+        border: 2px solid #444444;  /* Borda cinza escura */
+        border-radius: 2px;
+        padding: 0px;
+    }
+
+    QListWidget::item {
+        background-color: #2a2a2a;  /* Fundo dos itens */
+        border-radius: 4px;
+        padding: 2px;
+        margin-bottom: 2px;
+    }
+
+    QListWidget::item:hover {
+        background-color: #4d4d4d;  /* Fundo ao passar o mouse */
+    }
+
+    QListWidget::item:selected {
+        background-color: #3a5c70;  /* Fundo azul claro quando selecionado */
+        color: #ffffff;  /* Texto branco quando selecionado */
+    }
+
+
+
