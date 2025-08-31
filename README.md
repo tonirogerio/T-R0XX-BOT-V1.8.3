@@ -6,8 +6,8 @@ Bot completo com Auto pick, BC Farm, Farm de Apps e mais.
 ---
 
 ## 🌐 Links Oficiais  
-- 🌍 [Site Oficial](https://tonyrogerio.com.br/)  
-- 📺 [Canal no YouTube](https://www.youtube.com/@tonyr0xx/videos)  
+- 🌍 <a href="https://tonyrogerio.com.br/" target="_blank">Site Oficial</a>  
+- 📺 <a href="https://www.youtube.com/@tonyr0xx/videos" target="_blank">Canal no YouTube</a>  
 
 ---
 
