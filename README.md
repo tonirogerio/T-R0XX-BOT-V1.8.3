@@ -1,3 +1,25 @@
+# Toni Rogério - T-R0XX  
+
+Bot T-R0XX 1.8.3 para Talisman Online Ver.6139
+Bot completo com Auto pick, BC Farm, Farm de Apps e mais.  
+
+---
+
+## 🌐 Links Oficiais  
+- 🌍 [Site Oficial](https://tonyrogerio.com.br/)  
+- 📺 [Canal no YouTube](https://www.youtube.com/@tonyr0xx/videos)  
+
+---
+
+## 💖 Apoie meu trabalho  
+
+Se você gosta dos meus projetos e quer me apoiar, pode contribuir através de:  
+
+- 📲 **PIX:** `tonirogerio7@gmail.com`  
+- 💳 **PayPal:** [paypal.me/tonirogerio7](https://www.paypal.com/paypalme/tonirogerio7)  
+
+---
+
 
 <img width="857" height="638" alt="bot1" src="https://github.com/user-attachments/assets/6fa92bce-a7c2-4537-8ec5-d2e728235593" />
 
