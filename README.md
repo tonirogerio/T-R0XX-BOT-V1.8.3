@@ -16,7 +16,7 @@ Bot completo com Auto pick, BC Farm, Farm de Apps e mais.
 Se você gosta dos meus projetos e quer me apoiar, pode contribuir através de:  
 
 - 📲 **PIX:** `tonirogerio7@gmail.com`  
-- 💳 **PayPal:** [paypal.me/tonirogerio7](https://www.paypal.com/paypalme/tonirogerio7)  
+- 💳 **PayPal:**  `tonirogerio7@gmail.com` 
 
 ---
 
